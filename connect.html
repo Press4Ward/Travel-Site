@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Go 4Ward Travel, based in the southern United States, offers visitors advice on budgeting and planning their own international trip.">
+<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go 4Ward Travel</title>
+	<link rel="stylesheet" href="final.css">
+	<link rel="shortcut icon" href="favicon.ico">
+      	<link rel="icon" href="animated_favicon.gif" type="image/gif" >
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+<!--below code is submit button color-->
+input[type=submit] {
+    background-color: #cc0099;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #99cc00;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #0099cc;
+    padding: 20px;
+}
+</style>      	 		
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Go 4Ward Travel</h1><h3><i>"When traveling the world there is no front or back door."</h3></i></h1>
+</header> 
+<!--end of header-->
+	<nav>
+			<b><a href="index.html">Home</a></b>
+			<b><a href="budget.html">Budget</a></b>
+			<b><a href="plan.html">Plan</a></b>
+			<b><a href="gallery.html">Gallery<a/></b>
+			<b><a href="vlog.html">Vlog<a/></b>
+			<b><a href="shop.html">Shop</a></b>
+			<b><a href="connect.html">Connect</a></b>
+	</nav> 
+<!--end of nav-->
+<main>
+<h2>Frequently Asked Questions:</h2>
+<dl>
+<dt><strong>Do I need a passport and/or a visa to travel abroad?</strong><dt>
+<dd>You will always need a passport to travel abroad and you will often need a visa. A passport is an internationally-recognized ID issued by the national government of your home country. It is required both for purposes of entry into a foreign country and for readmission back into the U.S.A visa (issued by the embassy of the destination country before you leave the U.S.) is required for admission into many countries. Entry requirements will vary for those who are studying or working abroad, travelling as tourists, or those who are not U.S. citizens. See the U.S.Department of State Country Specific Travel Information. For more information, see our article on Passports and Visas.</dd><br>
+
+<dt><strong>How do I find information on safety and health conditions abroad?</strong><dt>
+<dd>See UM’s Travel Policy which lists countries with warnings. The U.S. Department of State Country Specific Travel Information assesses safety and health conditions for every country in the world, and issues a travel advisory. Every advisory gives detailed information about potential hazards such as crime, road safety, political instability, and terrorism.</dd>
+
+<h2>More Resources</h2>
+<p>Below are more resources to prepare you for your trip from the Department of State of the United States of America</p>
+<dl>
+<dt><strong>Do I need a passport and/or a visa to travel abroad?</strong>
+	<dd><a href="https://travel.state.gov" 
+	target="_blank">https://travel.state.gov/content/passports/en/passports.html</a><dd>
+<br>
+<dt><strong>Learn About Your Country</strong></dt>
+	<dd><a href="https://travel.state.gov"
+	target="_blank">https://travel.state.gov/content/passports/en/country.html</a></dd>
+<br>
+<dt><strong>Before You Go</strong></dt>
+	<dd><a href="https://travel.state.gov"
+	target="_blank">https://travel.state.gov/content/passports/en/go.html</a></dd>
+<br>
+<dt><strong>Managing Emergencies While Abroad</strong></dt>
+	<dd><a href="https://travel.state.gov"
+	target="_blank">https://travel.state.gov/content/passports/en/emergencies.html</a></dd>
+</dl>
+<br>
+
+<h2>Contact Form</h2>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required="required" />
+    
+     <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone.."> 
+    
+    <label for="destination">Select your destination</label>
+    <select id="country" name="country">
+      <option value="select one">Select a country</option>
+      <option value="aruba">Aruba</option>
+      <option value="anguilla">Anguilla</option>
+      <option value="antigua and barbuda">Antigua and Barbuda</option>
+      <option value="dominica">Dominica</option>
+      <option value="guadeloupe">Guadeloupe</option>
+      <option value="british virgin islands">British Virgin Islands</option>
+      <option value="australia">Australia</option>
+      <option value="bahamas">Bahamas</option>
+      <option value="barbados">Barbados</option>
+      <option value="brazil">Brazil</option>
+      <option value="canada">Canada</option>
+      <option value="cayman islands">Cayman Islands</option>
+      <option value="china">China</option>
+      <option value="curacao">Curacao</option>
+      <option value="Dominican Republic">Dominican Republic</option>
+      <option value="france">France</option>
+      <option value="germany">Germany</option>
+      <option value="grenada">Grenada</option>
+      <option value="italy">Italy</option>
+      <option value="jamaica">Jamaica</option>
+      <option value="martinique">Martinique</option>
+      <option value="montserrat">Montserrat</option>
+      <option value="puerto rico">Puerto Rico</option>      
+      <option value="spain">Spain</option>
+      <option value="Saint Barthelemy">Saint Barthelemy</option>
+      <option value="st. kitts and nevis">St. Kitts and Nevis</option>
+      <option value="st. lucia">St. Lucia</option>
+      <option value="St. Martin/Sint Maarten">St. Martin/Sint Maarten</option>
+      <option value="thailand">Thailand</option>
+      <option value="trinidad and tobago">Trinidad and Tobago</option>
+      <option value="turks and caicos">Turks and Caicos</option>
+      <option value="turkey">Turkey</option>
+      <option value="united kingdom">United Kingdom</option>
+      <option value="us virgin islands">US Virgin Islands</option>
+      <option value="usa">USA</option>     
+    </select>
+
+    <label for="destination">Desired Destination</label>
+    <textarea id="subject" name="subject" placeholder="Please write where you would like to go and what you need assistance with.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit"/>
+    onclick="alert ('Thank you. We will be in contact with you shortly!');"
+  </form>
+ </div>
+</main> <!--end of main-->
+</main> <!--end of main-->
+<footer> <!--start the footer information-->	
+	<span class="resort">Go 4Ward Travel</span><br>
+	747 Explore Blvd.<br>
+	Travel, GA 77777<br>
+	<a id="mobile" href="tel:777-767-7787">(777) 767-7787</a>&nbsp;&nbsp;
+	<a href="mailto:letsgo@go4wardtravel.com">letsgo@go4wardtravel.com</a><br>
+	Copyright &copy; 2017 Go 4Ward Travel
+	<ul><a href="privacy.pdf">Privacy</a>&nbsp;&nbsp;
+	<a href="sitemap.xml" target="_blank">Site Map</a> <!--opens new window-->&nbsp;&nbsp;
+	<a href="#top">Back to Top</a> 
+</footer>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58fde456c4792f67"></script> 
+</body>
+</html>

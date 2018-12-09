@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Go 4Ward Travel, based in the southern United States, offers visitors advice on budgeting and planning their own international trip.">
+	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Go 4Ward Travel</title>
+		<link rel="stylesheet" href="final.css">
+		<link rel="shortcut icon" href="favicon.ico">		
+      		<link rel="icon" href="animated_favicon.gif" type="image/gif" >
+<style>
+#gallery { width: 1024px;
+		background-color:#0099cc; }
+#gallery ul { width: 300px; 
+              list-style-type: none;
+			  float: left; }
+#gallery li { display: inline; 
+			  float: left;
+			  padding: 16px; }
+#gallery img { border-style: none; }
+figure { padding-top: 30px;
+		 align: right; }
+figcaption { font-weight: none;
+             font-size: 1em;
+             text-align: left; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#gallery a').click(function(){
+		var galleryHref = $(this).attr('href');
+		var galleryAlt = $(this).attr('title');
+		$('figure').css('display','none');
+		$('figure img').attr({ src: galleryHref, alt: galleryAlt });
+		$('figcaption').html(galleryAlt);
+		$('figure').fadeToggle(1000);
+		 return false;
+	});
+});
+</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Go 4Ward Travel</h1><p><i>"When traveling the world there is no front or back door."</p></i>
+</header> <!--end of header-->
+	<nav>
+			<b><a href="index.html">Home</a></b>
+			<b><a href="budget.html">Budget</a></b>
+			<b><a href="plan.html">Plan</a></b>
+			<b><a href="gallery.html">Gallery<a/></b>
+			<b><a href="vlog.html">Vlog<a/></b>
+			<b><a href="shop.html">Shop</a></b>
+			<b><a href="connect.html">Connect</a></b>
+	</nav> <!--end of nav-->
+<main>
+<body>
+<h2>Image Gallery</h2>
+<div id="gallery">
+ <ul>
+   <li>
+     <a href="FamTurksMap.jpg"  title="With my kids in front of Turks Map"><img src="FamTurksMapthumb.jpg" width="100" height="75"  alt="With my kids in front of Turks Map"></a>
+     <a href="barcelona.jpg" title="Segway Tour, Barcelona"><img src="barcelonathumb.jpg" width="100" height="75" alt="Segway Tour of Barcelona"></a>  
+     <a href="normandyBeach.jpg" title="Freezing on Normandy Beach, France"><img src="normandyBeachthumb.jpg" width="100" height="75" alt="Freezing on Normandy Beach"></a>
+     <a href="stonehenge.jpg" title="Us at Stonehenge,England"><img src="stonehengethumb.jpg" width="100" height="75" alt="Us at Stonehenge"></a>
+     <a href="kidsVenice.jpg" title="Venice,Italy"><img src="kidsVenicethumb.jpg" width="100" height="75" alt="Kids in Venice"></a>
+     <a href="barcelona.jpg" title="Barcelona, Spain"><img src="barcelonathumb.jpg" width="100" height="75" alt="Barcelona"></a>
+     <a href="MWGeorge.jpg" title="Grevin, Paris"><img src="MWGeorgethumb.jpg" width="100" height="75" alt="Grevin Paris"></a>
+     <a href="normandyBeach.jpg" title="Normandy Beach, France"><img src="normandyBeachthumb.jpg" width="100" height="75" alt="Normandy Beach"></a>
+     <a href="greeceFam.gif" title="Greece"><img src="greeceFamthumb.png" width="100" height="75" alt="Greece"></a>
+    <a href="vatican.jpg" title="With my kids at the Vatican, Vactican City"><img src="vaticanthumb.jpg" width="100" height="75" alt="The Vatican"></a>
+    
+    
+  </li>
+ </ul>
+ <figure>
+  <img src="venice.jpg" width="550" height="400" align="center" alt="Venice Tour by Boat">
+  <figcaption>Tour of Venice</figcaption>
+ </figure>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</main> <!--end of main-->
+</main> <!--end of main-->
+<footer> <!--start the footer information-->	
+	<span class="resort">Go 4Ward Travel</span><br>
+	747 Explore Blvd.<br>
+	Travel, GA 77777<br>
+	<a id="mobile" href="tel:777-767-7787">(777) 767-7787</a>&nbsp;&nbsp;
+	<a href="mailto:letsgo@go4wardtravel.com">letsgo@go4wardtravel.com</a><br>
+	Copyright &copy; 2017 Go 4Ward Travel
+	<ul><a href="privacy.pdf">Privacy</a>&nbsp;&nbsp;
+	<a href="sitemap.xml" target="_blank">Site Map</a> <!--opens new window-->&nbsp;&nbsp;
+	<a href="#top">Back to Top</a> 
+</footer>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58fde456c4792f67"></script> 
+</body>
+</html>
